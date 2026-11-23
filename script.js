@@ -1,5 +1,5 @@
 // Conceptual static site: no PMS, no live inventory, no AI API keys.
-const CONFIG={whatsappNumber:"",hotelName:"Hotel López"};
+const CONFIG={whatsappNumber:"573225180448",hotelName:"Hotel López"};
 const money=n=>new Intl.NumberFormat('es-CO',{style:'currency',currency:'COP',maximumFractionDigits:0}).format(n);
 const inventory=[{name:"King Caribe",count:34,price:490000,capacity:2},{name:"Doble Queen",count:33,price:590000,capacity:4},{name:"Suite Sabores",count:33,price:890000,capacity:2}];
 const today=()=>{const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-')};
